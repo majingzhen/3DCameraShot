@@ -1,0 +1,7 @@
+{
+  "name": "3D镜头控制器",
+  "description": "An advanced image editing tool featuring a 3D camera controller interface to adjust perspectives, angles, and shot types using Gemini 3 Pro Vision.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
