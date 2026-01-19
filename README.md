@@ -24,9 +24,9 @@ Interactive Lens Matrix - 通过 3D 相机参数控制图片重新生成
 
 ## 界面预览
 
-![界面截图1](./docs/ScreenShot_2026-01-19_115321_800.png)
+![界面截图1](./docs/1.png)
 
-![界面截图2](./docs/ScreenShot_2026-01-19_115329_929.png)
+![界面截图2](./docs/2.png)
 
 ## 本地运行
 
@@ -37,26 +37,27 @@ Interactive Lens Matrix - 通过 3D 相机参数控制图片重新生成
 ### 安装步骤
 
 1. 安装依赖
+
    ```bash
    npm install
    ```
-
 2. 启动开发服务器
+
    ```bash
    npm run dev
    ```
-
 3. 在浏览器中打开应用，点击左上角设置图标配置 API
 
 ### API 配置
 
 应用启动后，需要配置 Gemini API：
 
-| 配置项 | 说明 | 默认值 |
-|--------|------|--------|
+
+| 配置项   | 说明                  | 默认值                                      |
+| -------- | --------------------- | ------------------------------------------- |
 | API 地址 | Gemini API 服务器地址 | `https://generativelanguage.googleapis.com` |
-| API Key | 你的 Gemini API Key | - |
-| 模型 | 使用的图像生成模型 | `gemini-2.5-flash-image` |
+| API Key  | 你的 Gemini API Key   | -                                           |
+| 模型     | 使用的图像生成模型    | `gemini-2.5-flash-image`                    |
 
 获取 API Key: https://ai.google.dev/
 
